@@ -1,0 +1,55 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.blood-background {
+  background: linear-gradient(135deg, #8b0000, #ff0000);
+  border: 5px solid #8b0000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+}
+.contained {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+.blood-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.blood-input {
+  width: 400px;
+  padding: 20px;
+  font-size: 30px;
+  border: 2px solid #8b0000;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.blood-button {
+  width: auto;
+  height: 80px;
+  padding: auto;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8b0000;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.blood-button:hover {
+  background-color: #ff0000;
+}
